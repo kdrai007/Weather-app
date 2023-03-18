@@ -3,7 +3,7 @@ const cityInput = document.querySelector(".city");
 const submitBtn = document.querySelector(".btn");
 const image = document.querySelector(".image");
 //Api Key
-// const apiKey = "b204d792aecda2220562c6a911e5347b";
+const apiKey = "b204d792aecda2220562c6a911e5347b";
 
 submitBtn.addEventListener("click", () => {
   showWeather();
