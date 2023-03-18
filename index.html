@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container center">
+            <div class="search-field center">
+                <input type="text" class="city" placeholder="search city">
+                <button class="btn">search</button>
+            </div>
+            <hr>
+            <div class="data hidden ">
+                <img class="image" src="./assets/cloudy.svg" alt="">
+                <span class="temp-symbol">
+                    <strong class="show-temp">28.8 </strong>°C
+                </span>
+            </div>
+            <div class="error hidden">
+                <img src="./assets/thunder.svg" alt="error">
+                <p>facing error while fetching Weather data</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
